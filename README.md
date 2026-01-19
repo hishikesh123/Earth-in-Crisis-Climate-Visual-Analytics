@@ -36,29 +36,44 @@ Earth-in-Crisis-Climate-Visual-Analytics/
 │
 ├── README.md
 │
-├── data/
-│   ├── raw/                # Original climate & disaster datasets
-│   └── processed/          # Cleaned and transformed datasets
-│
-├── scripts/
-│   ├── climate_temperature_analysis.R
-│   ├── spatial_temperature_mapping.R
-│   ├── disaster_data_cleaning.R
-│   └── disaster_summary_metrics.R
-│
-├── visualizations/
-│   ├── global_temperature_map.png
-│   ├── global_temperature_trend.png
-│   └── disaster_impact_charts.png
+├── vodcast/
+│   ├── vodcast_link.md
+│   └── transcript.md
 │
 ├── dashboards/
 │   └── shiny_app/
-│       └── app.R
+│       ├── app.R
+│       └── README.md
+│
+├── data/
+│   ├── raw/
+│   │   ├── public_emdat_2025-05-26.csv
+│   │   ├── public_emdat_2025-05-26.xlsx
+│   │   ├── HadCRUT.5.0.2.0.analysis.summary_series.global.monthly.csv
+│   │   └── HadCRUT.4.6.0.0.covariance.1850_to_1859.zip
+│   │
+│   └── processed/
+│       └── emdat_cleaned_2000_present.csv
+│
+├── scripts/
+│   ├── 01_emdat_cleaning.R
+│   ├── 02_temperature_analysis.R
+│   └── 03_spatial_mapping.R
+│
+├── visualizations/
+│   ├── global_temperature_anomaly_map.png
+│   ├── temperature_trend_timeseries.png
+│   └── disaster_impact_bubble.png
 │
 ├── reports/
-    ├── methodology.md
-    ├── insights.md
-    └── limitations.md
+│   ├── methodology.md
+│   ├── insights.md
+│   └── limitations.md
+│
+├── assets/
+    ├── project_cover.png
+    └── logo.png
+
 ```
 
 ---
